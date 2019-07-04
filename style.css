@@ -28,10 +28,10 @@ header p {
 
 header .title {
   position: absolute;
-  left: 10%;
-  top: 50px;
+  left: 7%;
+  top: 30%;
   padding: 2%;
-  font-size: 54px;
+  font-size: 84px;
   text-shadow: 2px 2px 4px red;
   font-family: 'Indie Flower', cursive;
 
