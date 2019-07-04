@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+  list-style: none;
+}
+
+header {
+  position: relative;
+  background-image: url(haeder.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 24px;
+}
+
+header p {
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+  padding: 2%;
+  width: 60vw;
+}
+
+header .title {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+  padding: 2%;
+  font-size: 54px;
+  text-shadow: 2px 2px 4px red;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.hello {
+
+  width: 100vw;
+  height: 100vh;
+  background-color: wheat;
+}
+
+
+.aboutSite {
+
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+.blogSite {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+/* nawigaca */
+
+nav {
+  display: flex;
+  position: fixed;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* align-content: flex-end; */
+  /* position: absolute; */
+  /* width: 40vw; */
+  /* height: 10vh; */
+  right: 10%;
+  font-weight: bold;
+  list-style-type: none;
+  /* text-align: right; */
+  /* right: 10%; */
+  font-size: 24px;
+  transition: 2s;
+  z-index: 2;
+
+}
+
+nav ul {
+  margin-left: 100px;
+}
+
+nav li {
+  /* position: relative; */
+  float: left;
+  color: white;
+  margin: 20px;
+
+
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+  margin: 10px;
+
+}
+
+nav li a span {
+  transition: .5s;
+}
+
+nav li a:hover {
+  transform: scale(2);
+  color: wheat;
+}
