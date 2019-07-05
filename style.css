@@ -70,7 +70,7 @@ nav {
   /* position: absolute; */
   /* width: 40vw; */
   /* height: 10vh; */
-  right: 10%;
+  /* right: 10%; */
   font-weight: bold;
   list-style-type: none;
   /* text-align: right; */
@@ -82,7 +82,8 @@ nav {
 }
 
 nav ul {
-  margin-left: 100px;
+  margin-right: 20%;
+
 }
 
 nav li {
@@ -110,4 +111,121 @@ nav li a span {
 nav li a:hover {
   transform: scale(2);
   color: wheat;
+}
+
+/* hello */
+/* .hello {
+  position: relative;
+}
+
+.hello p:nth-child(1) {
+  position: absolute;
+  font-size: 64px;
+  margin-top: 10%;
+}
+
+.hello p:nth-child(2) {
+  position: absolute;
+  font-size: 24px;
+  margin-top: calc(12% + 64px);
+  float: left;
+  width: 50vw;
+  left: 50%;
+  transform: translateX(-50%)
+} */
+
+.hello {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hello .first {
+  position: relative;
+  background-color: white;
+  width: 30%;
+  height: 60%;
+  /* box-shadow: 5px 5px 10px black; */
+  border: 5px solid black;
+}
+
+.hello .first .kamila {
+  position: absolute;
+  background-image: url(img/kamila.jpg);
+  background-size: cover;
+  background-position: 70% 150%;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 50%;
+  left: 50%;
+  /* top: -50%; */
+  margin-top: -25%;
+  transform: translateX(-50%);
+  border: 5px solid black;
+}
+
+.personal {
+  /* background-color: #000;
+  height: 50%;
+  width: 50%; */
+  margin-left: 10%;
+  margin-top: 10%;
+  position: absolute;
+  top: 40%;
+  font-size: 34px;
+
+}
+
+.name {
+  /* background-color: #000;
+  height: 50%;
+  width: 50%; */
+  margin: 5% auto;
+  position: absolute;
+  left: 50%;
+  top: calc(25% - 34px);
+  font-size: 42px;
+  width: 80%;
+  transform: translateX(-50%);
+
+  text-shadow: 2px 2px 4px blueviolet;
+  font-family: 'Indie Flower', cursive !important;
+}
+
+.name p {
+  text-align: center;
+}
+
+.personal span {
+  font-weight: bold;
+}
+
+.hello .second {
+  position: relative;
+  background-color: white;
+  width: 30%;
+  height: 60%;
+  /* box-shadow: 5px 5px 10px black; */
+  border: 5px solid black;
+}
+
+.hello .second .aboutme {
+  position: absolute;
+  border: 5px solid black;
+  width: 25%;
+  padding: 5px;
+  font-size: 34px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.contentaboutme {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  position: absolute;
+  top: 10%;
+  font-size: 24px;
 }

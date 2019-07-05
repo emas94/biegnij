@@ -47,3 +47,17 @@ $(document).ready(function () {
 
 
 });
+
+// nav
+let navBAR = document.querySelector('nav');
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY != 0) {
+    navBAR.style.backgroundColor = "#000";
+    navBAR.style.width = 100 + "vw";
+    navBAR.style.opacity = 0.8
+  } else {
+    navBAR.style.backgroundColor = "transparent";
+  }
+  // navBAR.style.fontSize = 5 + "px";
+})
