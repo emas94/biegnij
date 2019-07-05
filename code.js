@@ -3,7 +3,7 @@ $(document).ready(function () {
   $(".home").click(function (event) {
     event.preventDefault();
     $('html, body').animate({
-      scrollTop: $("headet comr").offset().top + 'px'
+      scrollTop: $("header").offset().top + 'px'
     }, 'slow');
   })
   $(".about").click(function (event) {
