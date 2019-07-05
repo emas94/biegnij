@@ -3,7 +3,7 @@ $(document).ready(function () {
   $(".home").click(function (event) {
     event.preventDefault();
     $('html, body').animate({
-      scrollTop: $("header").offset().top + 'px'
+      scrollTop: $("headet comr").offset().top + 'px'
     }, 'slow');
   })
   $(".about").click(function (event) {
@@ -24,12 +24,7 @@ $(document).ready(function () {
       scrollTop: $(".contactSite").offset().top + 'px'
     }, 'slow');
   })
-  $(".home").click(function (event) {
-    event.preventDefault();
-    $('html, body').animate({
-      scrollTop: $(".first").offset().top + 'px'
-    }, 'slow');
-  })
+
   $(".arrow").click(function (event) {
     event.preventDefault();
     $('html, body').animate({
