@@ -6,18 +6,10 @@ $(document).ready(function () {
       scrollTop: $("header").offset().top + 'px'
     }, 'slow');
   })
-
-  $(".hi").click(function (event) {
-    event.preventDefault();
-    $('html, body').animate({
-      scrollTop: $(".hello").offset().top + 'px'
-    }, 'slow');
-  })
-
   $(".about").click(function (event) {
     event.preventDefault();
     $('html, body').animate({
-      scrollTop: $(".aboutSite").offset().top + 'px'
+      scrollTop: $(".hello").offset().top + 'px'
     }, 'slow');
   })
   $(".blog").click(function (event) {
@@ -29,7 +21,7 @@ $(document).ready(function () {
   $(".contact").click(function (event) {
     event.preventDefault();
     $('html, body').animate({
-      scrollTop: $(".fifth").offset().top + 'px'
+      scrollTop: $(".contactSite").offset().top + 'px'
     }, 'slow');
   })
   $(".home").click(function (event) {
