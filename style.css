@@ -6,6 +6,8 @@
   list-style: none;
 }
 
+
+
 header {
   position: relative;
   background-image: url(haeder.jpg);
@@ -168,8 +170,7 @@ nav li a:hover {
   /* background-color: #000;
   height: 50%;
   width: 50%; */
-  margin-left: 10%;
-  margin-top: 10%;
+  margin: 10%;
   position: absolute;
   top: 40%;
   font-size: 34px;
@@ -189,11 +190,12 @@ nav li a:hover {
   transform: translateX(-50%);
 
   text-shadow: 2px 2px 4px blueviolet;
-  font-family: 'Indie Flower', cursive !important;
+
 }
 
 .name p {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 .personal span {
@@ -204,7 +206,7 @@ nav li a:hover {
   position: relative;
   background-color: white;
   width: 30%;
-  height: 60%;
+  height: 70%;
   /* box-shadow: 5px 5px 10px black; */
   border: 5px solid black;
 }
@@ -218,6 +220,7 @@ nav li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
+  text-align: center;
 }
 
 .contentaboutme {
@@ -227,5 +230,102 @@ nav li a:hover {
   text-align: justify;
   position: absolute;
   top: 10%;
-  font-size: 24px;
+  font-size: 28px;
+}
+
+/* contact */
+.rounded {
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 80vw;
+  height: 80vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #fff; */
+  /* z-index: 3; */
+}
+
+.contactSite {
+  position: relative;
+  background-color: rgb(52, 52, 52);
+}
+
+.contactSite p {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+  font-size: 64px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  color: white;
+}
+
+.social {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin-top: 150px; */
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  height: 70%;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social div {
+  position: relative;
+  /* float: left; */
+  /* margin: 10px; */
+  flex-basis: 250px;
+  height: 250px;
+  /* height: 250px; */
+  /* margin-right: 0; */
+  background-color: white;
+  -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+.social div:hover {
+  cursor: pointer;
+}
+
+.social div:nth-child(1) img {
+  position: absolute;
+
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social div:nth-child(2) img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.social div:nth-child(3) img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social div:nth-child(4) img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
